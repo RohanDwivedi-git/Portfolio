@@ -12,7 +12,8 @@ body{
     margin: auto;
     margin-top: 5%;
     color: white;
-    font-family: 'Century Gothic',sans-serif;   
+    font-family: 'Century Gothic',sans-serif;
+    border-radius: 20px;
  }
 .box-img{
     border-radius: 50%;
@@ -49,4 +50,13 @@ ul{
 }
 .box li a:hover{
     color: #b9b9b9;
+}
+.foter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(42deg, black, #8c0b0b2b);
+    margin-top: 5%;
+    height: 40px;
 }
